@@ -7,7 +7,7 @@ All notable changes will be documented in this file in accordance with
 
 ## \[2.0.0] - 2018-02-25
 
-## Changed
+### Changed
 
 - rename value to key
 - rename name to keyName
