@@ -11,7 +11,7 @@ All notable changes will be documented in this file in accordance with
 
 - rename value to key
 - rename name to keyName
-- publicKey no longer written to stdOut
+- key no longer written to stdOut
 
 ## \[1.0.0] - 2017-11-17
 
