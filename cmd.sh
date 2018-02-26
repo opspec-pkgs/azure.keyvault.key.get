@@ -25,9 +25,7 @@ echo 'setting default subscription'
 az account set --subscription "$subscriptionId"
 ### end login
 
-echo 'getting key'
-value=$(az keyvault key show \
-    --name "$name" \
-    --vault-name "$vault")
-
-echo "value=$value"
+az keyvault key show \
+    --name "$keyName" \
+    --vault-name "$vaultName" \
+    > /key
