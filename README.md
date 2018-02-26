@@ -34,7 +34,7 @@ inputs:
     loginId:
     loginSecret:
     subscriptionId:
-    vault:
+    vaultName:
     # params w/ default
     loginTenantId:
     loginType:
