@@ -1,6 +1,5 @@
 name: github.com/opspec-pkgs/azure.keyvault.key.get
 description: gets an azure keyvault key
-icon: /icon.svg
 inputs:
   subscriptionId:
     string:

@@ -28,17 +28,17 @@ opctl run github.com/opspec-pkgs/azure.keyvault.key.get#2.0.0
 
 ```yaml
 op:
-pkg: { ref: github.com/opspec-pkgs/azure.keyvault.key.get#2.0.0 }
-inputs:
-    keyName:
+  pkg: { ref: github.com/opspec-pkgs/azure.keyvault.key.get#2.0.0 }
+  inputs:
+    subscriptionId:
     loginId:
     loginSecret:
-    subscriptionId:
+    keyName:
     vaultName:
     # params w/ default
     loginTenantId:
     loginType:
-outputs:
+  outputs:
     key:
 ```
 
